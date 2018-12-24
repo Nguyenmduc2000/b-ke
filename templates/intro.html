@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    <title>Introduction</title>
+</head>
+<body>
+        <div class="topnav">
+                <!-- <a href="#yamaha">YAMAHA</a>
+                <a href="#suzuki">SUZUKI</a>
+                <a href="#honda">HONDA</a>
+                <a href="#ducati">DUCATI</a>
+                <a href="#kawasaki">KAWASAKI</a>
+                <a href="#bmwmotorrad">BWM MOTORRAD</a> -->
+    
+                <nav class="nav-collapse" role="navigation">
+                    <ul class="tabs primary-nav">
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">YAMAHA</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">SUZUKI</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">HONDA</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">DUCATI</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">KAWASAKI</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#" class="tabs__link">BMW MOTORRAD</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                    <div class="cntr">
+                            <div class="cntr-innr">
+                                <label class="search" for="inpt_search">
+                                    <input id="inpt_search" type="text" />
+                                </label>
+                                <button>Search</button>
+                                <!-- <p>Bạn đang nghĩ tới sản phẩm gì?</p> -->
+                            </div>
+                    </div>
+
+                    <div class="main_product">
+                        <p class="title">{{ hangxe }}</p>
+                        <ul class="bar">
+                            <li class="bar_link"><a href="">Intro</a></li>
+                            <li class="bar_link"><a href="">Phân khúc (cc)</a></li>
+                        </ul>
+                    </div>
+            </div>
+<div class="content">
+    <p>This sentence is supposed to be about Honda. You might think its not. But it actually is.</p>
+</div>
+
+</body>
+</html>

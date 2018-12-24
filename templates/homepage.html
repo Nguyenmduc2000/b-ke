@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <title>SUPERBIKE</title>
+</head>
+
+<body> 
+    {% include 'header.html' %}
+        <div class="container">
+        <div class="row">
+            <div class="col-4 d-flex flex-column align-items-center" id="yamaha">
+                <div class="d-flex">
+                    <img src="https://auto.ndtvimg.com/bike-images/colors/yamaha/yzf-r3/yamaha-yzf-r3-racing-blue.png?v=1" alt="" style="">
+                    <img src="https://i.pinimg.com/originals/db/1d/7e/db1d7e9c19d735ba6efcb2b48832901a.png" alt="" style="">
+                </div>
+                <div>
+                    <a href="{{ url_for('phankhuc', brand='Yamaha') }}">
+                    <button type="submit" class="butt">YAMAHA</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center" id="suzuki">
+                <div class="d-flex">
+                    <img class="" src="https://auto.ndtvimg.com/bike-images/gallery/suzuki/gsx-s1000f/exterior/exterior-abs1.jpg?v=2017-01-25" alt="" style="">
+                    <img class="" src="https://motorcycle-logos.com/wp-content/uploads/2016/10/Suzuki-logo.png" alt="" style="">
+                </div>
+                <div>
+                    <a href="{{ url_for('phankhuc', brand='Suzuki') }}">
+                    <button type="submit" class="butt">SUZUKI</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center" id="honda">
+                <div class="d-flex">
+                    <img src="https://cdn4.droom.in/uploads/category//tmp/php2CZPoE/20170907124102000000-4871154693283818497.png" alt="" style="">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201304/honda_logo_660_041713033746.jpg" alt="" style="">
+                </div>
+                <div>
+                    <a href="{{ url_for('phankhuc', brand='Honda') }}">
+                    <button type="submit" class="butt">HONDA</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex flex-column align-items-center" id="ducati">
+                <div class="d-flex">
+                    <img src="https://media.zigcdn.com/media/model/2018/Jun/ducati-diavel-full-right-side-view_600x300.jpg" alt="" style="">
+                    <img src="https://cdn.autowise.com/wp-content/uploads/2018/06/Ducati-Logo.png" alt="" style="">
+                </div>
+                <div>
+                    <a href="{{ url_for('phankhuc', brand='Ducati') }}">
+                    <button type="submit" class="butt">DUCATI</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center" id="kawasaki">
+                <div class="d-flex">
+                    <img src="https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/18ZX1002B_40RGN1DRF3CG_A_001.png" alt="" style="">
+                    <img src="https://cdn.shopify.com/s/files/1/0235/2123/products/Kawasaki_Logo.jpg?v=1521546625" alt="" style="">
+                </div>
+                <div>
+                    <a href="{{ url_for('phankhuc', brand='Kawasaki') }}">
+                    <button type="submit" class="butt">KAWASAKI</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center" id="bmw">
+                <div class="d-flex">
+                    <img src="https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/motorcycles/bmw-motorrad/2018/large/bmw-motorrad-2018-r-nine-t-scrambler.jpg" alt="" style="">
+                    <img src="http://www.accinnistore.com/746-thickbox_default/cable-for-bmw-motorrad.jpg" alt="" style="">
+                </div>
+                <div>
+                    <a href="{{ url_for('phankhuc', brand='BMV') }}">
+                    <button type="submmit" class="butt">BMW MOTORRAD</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

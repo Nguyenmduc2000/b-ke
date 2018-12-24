@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div class="topnav">
+                <!-- <a href="#yamaha">YAMAHA</a>
+                <a href="#suzuki">SUZUKI</a>
+                <a href="#honda">HONDA</a>
+                <a href="#ducati">DUCATI</a>
+                <a href="#kawasaki">KAWASAKI</a>
+                <a href="#bmwmotorrad">BWM MOTORRAD</a> -->
+    
+                <nav class="nav-collapse" role="navigation">
+                    <ul class="tabs primary-nav">
+                        <li class="tabs__item">
+                            <a href="{{ url_for('phankhuc', brand='Yamaha') }}" class="tabs__link">YAMAHA</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="{{ url_for('phankhuc', brand='Suzuki' )}}" class="tabs__link">SUZUKI</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="{{ url_for('phankhuc', brand='Honda' )}}" class="tabs__link">HONDA</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="{{url_for('phankhuc', brand='Ducati' )}}" class="tabs__link">DUCATI</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="{{url_for('phankhuc', brand='Kawasaki' )}}" class="tabs__link">KAWASAKI</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="{{url_for('phankhuc', brand='BMW' )}}" class="tabs__link">BMW MOTORRAD</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                    <div class="cntr">
+                            <div class="cntr-innr">
+                                <form action="" method="post">
+                                    <label class="search" for="inpt_search">
+                                        <input name="search_bike" id="inpt_search" type="text" />
+                                    </label>
+                                    <button>Search</button>
+                                </form>
+                                <!-- <p>Bạn đang nghĩ tới sản phẩm gì?</p> -->
+                            </div>
+                    </div>
+            </div>
+</body>
+</html>

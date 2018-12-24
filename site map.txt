@@ -1,0 +1,24 @@
+function:
+home page
+	- danh mu?c ca´c ha~ng xe 
+	- search
+	- banner
+danh mu?c xe:
+	- gio´i thiê?u vê` ha~ng 
+	- ca´c phân khu´c
+ca´c phân khu´c:
+	- sport bike: vo´i link va`o ca´c do`ng xe
+	- naked bike
+do`ng xe:
+	- a?nh
+	- dô?ng co
+	- khung xe
+	- ki´ch thuo´c
+	- gia´ ba´n tham kha?o
+
+yamaha r1m
+honda cbr sp2
+suzuki gsx r1000
+kawasaki h2
+ducati v4s
+bmw s1000rr
